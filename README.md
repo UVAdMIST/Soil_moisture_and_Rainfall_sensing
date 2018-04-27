@@ -21,8 +21,10 @@ Another arduino uno and a receiver were located nearby connected to a computer. 
 For posting data on a server, calls were made using the Blynk Library (made by a team at MIT: https://www.blynk.cc/) which required importing their library as well. Blynk has an app which hosts a bunch of "widgets" for users to integrate into their projects. The main widget we used was the history graph which plots sent number data over time and can be exported to CSV format (for Excel). To use the Blynk API, you must create a project and generate an authentication token which is put into the code programmed on the Arduino.
 
 # Conclusions
-The project was overall succesfull. Soil moisture data was collected and posted on the Blynk-server. This was demoed at the UVA SEAS openhouse. The two main problems were: 
+The project was overall successfull. Soil moisture data was collected and posted on the Blynk-server. This was demoed at the UVA SEAS openhouse. The three main problems were: 
 1. The batteries died within two weeks. This is likely due to the amount of radio transmissions which were occuring every 30 seconds. This was mainly because we were testing the setup worked as sometimes the radios lost communication and the blynk-server timed out of its connection. 
 2. The accuracy of the data collected is questionable. We calibrated the device oursevles using the arduino .map() function (puts integer data into percentage based on two sets of defined ranges). However, these probes were very cheap and not built for exact data measurement. Overall though, the probes still prove useful for getting trends of stormwater overtime, just the accuracy of each point on the graph might be slighty above or below the actual moisture.
+3. Radio transmission range was short (50 feet or lower if brick walls in the way). This range was boosted by soldering antennas onto the NRF's.
 
-This is a doable project that only cost around $20. 
+
+This is a doable and useful project that only cost around $20. This project could be expanded & improved in many ways to better monitor stormwater patterns.
