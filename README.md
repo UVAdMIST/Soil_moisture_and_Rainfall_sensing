@@ -28,3 +28,5 @@ The project was overall successfull. Soil moisture data was collected and posted
 
 
 This is a doable and useful project that only cost around $20. This project could be expanded & improved in many ways to better monitor stormwater patterns.
+
+If you are working on this project or a related one and have questions about wiring, feel free to ask me evan.lesmez@gmail.com
