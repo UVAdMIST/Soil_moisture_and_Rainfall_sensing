@@ -1,5 +1,5 @@
 # UVAHydroInformatics
-The goal of this project was to make a cheap device that could aggregate and post stormwater data (soil moisture and rainfall) online. This data could then be used for analysis of a catchment area or to automatically open up active draining systems.
+The goal of this project was to make a cheap device that could aggregate and post stormwater data (soil moisture and rainfall) online. This data could then be used for analysis of a catchment area or to automatically open up active draining systems. Open the "UVAHydroinformatics.pdf" to see a more visual presentation for the course of the project.
 
 There were three hardware tools used: Arduino Unos, soil moisture probe, and radio transmitters.
 
